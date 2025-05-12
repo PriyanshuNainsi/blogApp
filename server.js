@@ -44,6 +44,7 @@ app.post('/signup',async(req,res)=>{
 
     res.redirect('/dashboard');
     console.log("your cookie ater redirect:",req.cookies.username);
+    console.log("hi this is priyanshu")
 })
 
 app.get('/signin',(req,res)=>{
